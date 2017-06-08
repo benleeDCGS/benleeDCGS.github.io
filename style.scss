@@ -76,6 +76,15 @@ div.post-div {
   width: 100%;
 }
 
+.post-img-top {
+  position: relative;
+  height: 325px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -30000;
+  object-fit: cover;
+}
+
 .post-div span.text-content {
   display: table-cell;
   text-align: center;
@@ -189,7 +198,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #f1c232ff;
+  background-color: #f123ff;
   position: fixed;
   width: 100%;
   top: 0;
@@ -234,7 +243,7 @@ img {
 
 .site-name {
   margin: 0;
-  margin-left: 5%;
+  margin-left: 10%;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
