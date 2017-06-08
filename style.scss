@@ -203,12 +203,12 @@ img {
 }
 
 .masthead {
+  background-color: #f4d81a;
   padding: 20px 0;
   height: 5%;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
-    text-align: center;
+   // text-align: center;
   }
 }
 
