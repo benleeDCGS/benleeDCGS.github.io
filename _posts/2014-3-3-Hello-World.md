@@ -1,6 +1,7 @@
 ---
 layout: post
 title: YOU'RE UP AND RUNNING!
+image: https://pbs.twimg.com/media/DBdxJH_XkAE6Xt8.jpg
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
