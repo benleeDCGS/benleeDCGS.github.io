@@ -200,12 +200,14 @@ img {
   width: 100%;
   top: 0;
   height: 2.5%;
+  z-index: 32000;
 }
 
 .masthead {
   background-color: #f4d81a;
   padding: 20px 0;
   height: 2.5%;
+  z-index: 32000;
 
   @include mobile {
    // text-align: center;
