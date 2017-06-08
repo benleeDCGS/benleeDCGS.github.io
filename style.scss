@@ -22,7 +22,11 @@ body {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: $darkGray;
-  margin-top: 6%;
+  margin-top: 3%;
+	
+  @include mobile {
+  margin-top: 11%;
+  }
 }
 
 .container {
