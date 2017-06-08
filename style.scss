@@ -22,7 +22,7 @@ body {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: $darkGray;
-  margin-top: 2.5%;
+  margin-top: 6%;
 }
 
 .container {
@@ -87,6 +87,7 @@ div.post-div {
   display: table-cell;
   text-align: center;
   vertical-align: bottom;
+  bottom: 0;
 }
 
 h2 {
@@ -199,14 +200,14 @@ img {
   position: fixed;
   width: 100%;
   top: 0;
-  height: 3.5%;
+  height: 5%;
   z-index: 32000;
 }
 
 .masthead {
   background-color: #f4d81a;
  // padding: 20px 0;
-  height: 3.5%;
+  height: 5%;
   z-index: 32000;
 
   @include mobile {
@@ -215,7 +216,7 @@ img {
 }
 
 .masthead.clearfix {
-  height: 3.5%;
+  height: 5%;
 }
 
 /*.site-avatar {
