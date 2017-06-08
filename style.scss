@@ -58,7 +58,7 @@ h1 {
 
 div.post-div {
   display: inline-block;
-  height: auto;
+  height: 50%;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -67,8 +67,7 @@ div.post-div {
 
 .post-div span.text-content {
   color: #e0e0e0;
-  display: table;
-  height: 320px; 
+  display: table; 
   left: 0;
   position: absolute;
   top: 0;
@@ -77,7 +76,7 @@ div.post-div {
 
 .post-img-top {
   position: relative;
-  height: 325px;
+  height: 100%;
   width: 100%;
   overflow: hidden;
   z-index: -30000;
