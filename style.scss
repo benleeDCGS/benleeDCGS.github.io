@@ -207,7 +207,7 @@ img {
 
 .site-name {
   margin: 0;
-  margin-left: 20px;
+  margin-left: 5%;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -229,6 +229,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
+  margin-right: 5%;
   font-family: $helveticaNeue;
   font-size: 18px;
 
