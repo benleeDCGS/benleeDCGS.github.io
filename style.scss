@@ -198,7 +198,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #f123ff;
+  background-color: #c4ad15;
   position: fixed;
   width: 100%;
   top: 0;
@@ -207,6 +207,7 @@ img {
 
 .masthead {
   padding: 20px 0;
+  height: 5%;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -244,7 +245,7 @@ img {
 .site-name {
   margin: 0;
   margin-left: 10%;
-  color: $darkGray;
+  color: #e0e0e0;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -264,10 +265,10 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 1%; // @TODO: Vertically middle align
   margin-right: 5%;
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     float: none;
