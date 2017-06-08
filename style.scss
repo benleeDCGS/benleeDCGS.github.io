@@ -205,13 +205,17 @@ img {
 
 .masthead {
   background-color: #f4d81a;
-  padding: 20px 0;
-  height: 2.5%;
+ // padding: 20px 0;
+  height: 3.5%;
   z-index: 32000;
 
   @include mobile {
    // text-align: center;
   }
+}
+
+.masthead.clearfix {
+  height: 3.5%;
 }
 
 /*.site-avatar {
