@@ -88,6 +88,11 @@ div.post-div {
   text-align: center;
   vertical-align: bottom;
   bottom: 0;
+  font-size: 48px;
+
+  @include mobile {
+    font-size: 30px;
+  }
 }
 
 h2 {
