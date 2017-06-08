@@ -67,7 +67,6 @@ div.post-div {
 
 .post-div span.text-content {
   color: #e0e0e0;
-  background-color: rgba(0, 0, 0, 0.4);
   display: table;
   height: 320px; 
   left: 0;
@@ -85,11 +84,15 @@ div.post-div {
   object-fit: cover;
 }
 
-.post-div span.text-content {
+img.post-img-top {
+  position: fixed;
+  z-index: -30000;
+}
+
+.post-div span.text-content span {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
-  padding-bottom: 100px;
+  vertical-align: bottom;
 }
 
 h2 {
