@@ -18,8 +18,9 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: $white;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
   color: $darkGray;
 }
 
@@ -31,7 +32,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -60,15 +60,18 @@ h3 {
 }
 
 h4 {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   color: $gray;
 }
 
 p {
   margin: 15px 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
+  font-family: 'Raleway', sans-serif;
   color: $blue;
   text-decoration: none;
 	cursor: pointer;
