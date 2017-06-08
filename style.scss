@@ -56,6 +56,14 @@ h1 {
   }
 }
 
+span.post-img-txt {
+  color: #e0e0e0;
+  bottom: 0;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 24px;
