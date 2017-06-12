@@ -222,7 +222,7 @@ img {
  // padding: 20px 0;
   height: 5%;
   z-index: 32000;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
   @include mobile {
    // text-align: center;
@@ -357,7 +357,7 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
  // border-top: 1px solid #ddd;
- // border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #565656;
   background-color: #565656;
 }
 
