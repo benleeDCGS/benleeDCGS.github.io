@@ -13,3 +13,9 @@ A place to include any other types of information that you'd like to include abo
 ### CONTACT ME
 
 [email@domain.com](mailto:email@domain.com)
+
+<style>
+body {
+  margin-top: 4%;
+}
+</style>
