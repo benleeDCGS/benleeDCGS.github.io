@@ -6,10 +6,12 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
         <div class="home-div">
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            <img class="home-img-top" src="{{ post.image }}" alt=""/>
-            <h1><span class="text-content"><span>{{ post.title }}</span></span></h1>
-          </a>
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <img class="home-img-top" src="{{ post.image }}" alt=""/>
+              <h1><span class="text-content"><span>{{ post.title }}</span></span></h1>
+            </a>
+          </li>
         </div>
 
       <!--<div class="entry">
