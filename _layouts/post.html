@@ -1,16 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-<div class="post-div" style="margin-top: -40%; @include mobile{margin-top: -30%;}">
-  <img class="post-img-top" src="{{ page.image }}" alt=""/>
-  <h1><span class="text-content"><span>{{ page.title }}</span></span></h1>
-</div>
+    {% include meta.html %}
 
-<article class="post" class="container">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Condensed:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      
+        <header class="masthead clearfix">
+          <!--<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>-->
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <!--<p class="site-description">{{ site.description }}</p>-->
+          </div>
+
+          <nav style="margin-top: 1%; @include mobile{margin-top: 1.75%}">
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+        </header>
+      
+    </div>
+
+    <div id="main" role="main">
+        <div class="post-div" style="margin-top: -40%; @include mobile{margin-top: -30%;}">
+            <img class="post-img-top" src="{{ page.image }}" alt=""/>
+            <h1><span class="text-content"><span>{{ page.title }}</span></span></h1>
+        </div>
+
+        <article class="post" class="container">
   
-  <div class="container" class="entry">
-    {{ content }}
-  </div>
+        <div class="container" class="entry">
+           {{ content }}
+        </div>
 
-  <div class="container" class="date">
-    Published on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-</article>
+         <div class="container" class="date">
+           Written on {{ page.date | date: "%B %e, %Y" }}
+         </div>
+
+         {% include disqus.html %}
+        </article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div><!--<div class="container">-->
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
