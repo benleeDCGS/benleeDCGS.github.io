@@ -67,6 +67,11 @@ div.post-div {
   width: 100%;
   overflow: hidden;
   padding: 0;
+  margin-top: -40%; 
+  
+  @include mobile {
+    margin-top: -30%;
+  }
 }
 
 .post-div span.text-content {
