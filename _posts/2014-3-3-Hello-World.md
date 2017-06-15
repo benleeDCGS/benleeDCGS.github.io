@@ -4,6 +4,8 @@ title: YOU'RE UP AND RUNNING!
 image: https://pbs.twimg.com/media/DBdxJH_XkAE6Xt8.jpg
 ---
 
+<h2>SAMPLE SUBTITLE</h2>
+
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
