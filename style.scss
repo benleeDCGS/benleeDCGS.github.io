@@ -60,34 +60,6 @@ h1 {
   }
 }
 
-ul.posts {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  overflow: hidden;
-}
-
-ul.posts li {
-  top: 0;
-  display: inline-block;
-  height: 20%;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-}
-
-ul.posts li a {
-  margin: 0;
-  display: block;
-//  color: blue;
-  padding-top: 0px;
-  text-decoration: none;
-  padding: 0;
-}
-
 div.post-div {
   display: inline-block;
   height: 50%;
