@@ -134,6 +134,28 @@ div.post-div {
   }
 }
 
+.crop-height {
+  max-height: 20%;
+  overflow: hidden; 
+}
+
+img.scale {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  width: auto\9; 
+  -ms-interpolation-mode: bicubic; 
+}
+
+img.flip {
+  -webkit-transform: rotate(180deg);
+  -moz-transform:    rotate(180deg);
+  -ms-transform:     rotate(180deg);
+  -o-transform:      rotate(180deg);
+  transform:         rotate(180deg);
+  zoom: 1;
+}
+
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 24px;
