@@ -302,7 +302,8 @@ img {
 .site-info {
   float: left;
   height: 100%;
-
+  vertical-align: middle;
+	
  /* @include mobile {
     float: none;
     display: block;
