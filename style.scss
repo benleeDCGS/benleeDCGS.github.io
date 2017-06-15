@@ -319,12 +319,13 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 1px;
   vertical-align: middle;
 	
   @include mobile {
     //margin-top: 7.5%
+    font-size: 18px;
   }
 }
 
