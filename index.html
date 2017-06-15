@@ -3,20 +3,22 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-  <article class="post">
-    <li class="home-div">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <img class="home-img-top" src="{{ post.image }}" alt=""/>
-        <h1><span class="text-content"><span>{{ post.title }}</span></span></h1>
-      </a>
-    </li>
-
+  <ul class="posts">
+    {% for post in site.posts %}
+    <article class="post">
+      <li class="home-div">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img class="home-img-top" src="{{ post.image }}" alt=""/>
+          <h1><span class="text-content"><span>{{ post.title }}</span></span></h1>
+        </a>
+      </li>
+  
       <!--<div class="entry">
         {{ post.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
-  </article>
-  {% endfor %}
+    </article>
+    {% endfor %}
+  </ul>
 </div>
