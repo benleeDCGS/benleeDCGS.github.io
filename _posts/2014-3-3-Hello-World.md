@@ -4,10 +4,7 @@ title: STARTING AGAIN
 image: https://pbs.twimg.com/media/DBdxJH_XkAE6Xt8.jpg
 ---
 
-<h2>SAMPLE SUBTITLE</h2>
+<h2>THE BEGINNING</h2>
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+This lesson we were asked to delete everything. Everything. At first I was upset and disappointed that all the time and effort I had put into my website previously had been wasted and that I had to start a fresh. Then I saw the bright side of it, the opportunity to restart and to try again to make a nice style that looks good. I needed to do some research.
+  After hours of research and a LOT of procrastination, I decided on a style.
