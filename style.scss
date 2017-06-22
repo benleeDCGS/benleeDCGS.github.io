@@ -31,9 +31,12 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 85%;
+  max-width: 65%;
   padding: 0 10px;
   width: 100%;
+  @include mobile{
+    max-width: 85%;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
