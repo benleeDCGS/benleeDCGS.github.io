@@ -3,17 +3,15 @@ layout: default
 ---
 
 <div class="posts">
-  <ul class="posts">
+  <ul class="img-list">
     {% for post in site.posts %}
     <article class="post">
-      <ul class="img-list">
         <li class="home-div" class="home-img-top" style="background-image: url('');" alt=""/>
           <a href="{{ site.baseurl }}{{ post.url }}">
             <img src="{{ post.image }}" class="txt-img">
             <span class="text-content"><span>{{ post.title }}</span></span>
           </a>
         </li>
-      </ul>
       <!--<div class="entry">
         {{ post.excerpt }}
       </div>
