@@ -58,6 +58,10 @@ img {
   opacity: 1;
 }
 
+.txt-img:hover span.text-content span {
+  color: #e5e5e5;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
@@ -191,6 +195,7 @@ span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  color: #5b5b5b;
   -webkit-transition: all 0.5s ease; 
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
