@@ -54,13 +54,13 @@ img {
   //height: 20%;
 }
 
-.txt-img:hover {
+li img.txt-img:hover {
   opacity: 1;
 }
 
-.txt-img:hover span.text-content span {
-  color: #e5e5e5;
-}
+//.txt-img:hover span.text-content span {
+//  color: #e5e5e5;
+//}
 
 h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
