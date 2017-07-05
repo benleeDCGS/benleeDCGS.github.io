@@ -58,14 +58,6 @@ img {
   opacity: 1;
 }
 
-span.text-content span {
-  color: #5b5b5b;
-  -webkit-transition: 0.5s ease; 
-  -moz-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-
 .txt-img:hover span.text-content span {
   color: #e5e5e5;
 }
@@ -199,7 +191,12 @@ ul.img-list li:hover span.text-content span {
   padding-bottom: 0px;
 }
 
+li:hover span.text-content span {
+  color: #e5e5e5;
+}
+
 span.text-content span {
+  color: #5b5b5b;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -224,9 +221,9 @@ li a.active {
     color: black;
 }
 
-li a:hover:not(.active) {
-    color: #c25b56;
-}
+//li a:hover:not(.active) {
+//    color: #c25b56;
+//}
 
 img.text-on-top {
   position: relative;
