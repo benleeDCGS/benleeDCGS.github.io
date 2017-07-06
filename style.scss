@@ -54,7 +54,7 @@ img {
   //height: 20%;
 }
 
-li:hover img.txt-img {
+li:hover img.txt-img, li:active img.txt-img {
   opacity: 1;
 }
 
@@ -192,7 +192,7 @@ ul.img-list li:hover span.text-content span {
   padding-bottom: 0px;
 }
 
-li:hover span.text-content span {
+li:hover span.text-content span, li:active span.text-content span {
   color: #e5e5e5;
 }
 
