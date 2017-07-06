@@ -54,7 +54,7 @@ img {
   //height: 20%;
 }
 
-li:hover img.txt-img, li:active img.txt-img {
+li:hover img.txt-img, li:active img.txt-img, li:focus img.txt-img {
   opacity: 1;
 }
 
@@ -125,7 +125,7 @@ div.post-div {
   vertical-align: bottom;
   bottom: 0;
   font-size: 48px;
-  color: #e5e5e5;
+  color: #ebebeb;
 
   @include mobile {
     font-size: 30px;
@@ -192,8 +192,8 @@ ul.img-list li:hover span.text-content span {
   padding-bottom: 0px;
 }
 
-li:hover span.text-content span, li:active span.text-content span {
-  color: #e5e5e5;
+li:hover span.text-content span, li:active span.text-content span, li:focus img.txt-img {
+  color: #ebebeb;
 }
 
 span.text-content span {
