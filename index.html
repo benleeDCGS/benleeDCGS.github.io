@@ -6,10 +6,12 @@ layout: default
   <ul class="img-list">
     {% for post in site.posts %}
     <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <div style="background-image: url({{ post.image }});" class="txt-img"></div>
-        <span class="text-content"><span>{{ post.title }}</span></span>
-      </a>
+      <li aria-haspopup="true">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="{{ post.image }}" class="txt-img">
+          <span class="text-content"><span>{{ post.title }}</span></span>
+        </a>
+      </li>
       <!--<div class="entry">
         {{ post.excerpt }}
       </div>
