@@ -179,10 +179,14 @@ ul.img-list li {
   padding: 0;
 }
 
+ul.img-list li a span.text-content {
+  top: 0;
+}
+
 span.text-content {
   //margin-top: -50%;
   //background-color: rgba(0, 0, 0, 0.4);
-  top: 0;
+  //top: 0;
   display: table;
   height: 25vh; 
   left: 0;
