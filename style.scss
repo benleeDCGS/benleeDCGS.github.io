@@ -46,6 +46,7 @@ img {
 
 .post {
   height: 400px;
+  position: absolute;
   
   .txt-img {
     width: 100%;
@@ -172,7 +173,7 @@ ul.img-list {
 
 ul.img-list li {
   display: inline-block;
-  height: 20%;
+  //height: 20%;
   position: relative;
   width: 100%;
   overflow: hidden;
