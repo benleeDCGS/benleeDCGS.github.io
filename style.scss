@@ -55,7 +55,7 @@ img {
   //height: 20%;
 }
 
-div:hover img.txt-img, div:active img.txt-img, div:focus img.txt-img {
+li:hover img.txt-img, li:active img.txt-img, li:focus img.txt-img {
   opacity: 1;
 }
 
@@ -168,7 +168,7 @@ ul.img-list {
   overflow: hidden;
 }
 
-ul.img-list div {
+ul.img-list li {
   display: inline-block;
   height: 20%;
   position: relative;
@@ -191,7 +191,11 @@ span.text-content {
   transition: 0.5s ease;
 }
 
-div:hover span.text-content span, div:active span.text-content span, div:focus img.txt-img {
+ul.img-list li:hover span.text-content span {
+  padding-bottom: 0px;
+}
+
+li:hover span.text-content span, li:active span.text-content span, li:focus img.txt-img {
   color: #fff;
 }
 
@@ -207,7 +211,7 @@ span.text-content span {
   transition: all 0.5s ease;
 }
 
-div a {
+li a {
     margin: 0;
     display: block;
     padding-top: 0px;
@@ -215,6 +219,10 @@ div a {
     padding: 0;
     height: 20%;
     overflow: hidden;
+}
+
+li a.active {
+    color: black;
 }
 
 //li a:hover:not(.active) {
