@@ -25,7 +25,7 @@ body {
   margin-top: 3%;
 	
   @include mobile {
-    margin-top: 11%;
+  margin-top: 11%;
   }
 }
 
@@ -44,33 +44,19 @@ img {
   width: 100%;
 }
 
-.post {
-  height: 400px;
-  position: absolute;
-  
-  .txt-img {
-    width: 100%;
-    height: 100%; // meme
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
-  
-  .text-content {
-    font-size: 72px;
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    color: black;
-    
-    @include mobile {
-      font-size: 48px;
-    }
-  }
-}	 
+.txt-img {
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease; 
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  //height: 20%;
+}
+
+li:hover img.txt-img, li:active img.txt-img, li:focus img.txt-img {
+  opacity: 1;
+}
 
 //.txt-img:hover span.text-content span {
 //  color: #e5e5e5;
@@ -113,6 +99,16 @@ div.post-div {
   @include mobile {
     margin-top: -30%;
   }
+}
+
+.post-div span.text-content {
+  color: #eeeeee;
+  display: table; 
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
 }
 
 .post-img-top {
@@ -173,23 +169,45 @@ ul.img-list {
 
 ul.img-list li {
   display: inline-block;
-  //height: 20%;
+  height: 20%;
   position: relative;
   width: 100%;
   overflow: hidden;
   padding: 0;
 }
 
-ul.img-list div:hover span.text-content span {
+span.text-content {
+  margin-top: -50%;
+  //background-color: rgba(0, 0, 0, 0.4);
+  display: table;
+  height: 320px; 
+  left: 0;
+  position: absolute;
+  width: 100%;
+  -webkit-transition: 0.5s ease; 
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+ul.img-list li:hover span.text-content span {
   padding-bottom: 0px;
 }
 
-div:hover span.text-content span, div:active span.text-content span, div:focus span.text-content span {
+li:hover span.text-content span, li:active span.text-content span, li:focus img.txt-img {
   color: #fff;
 }
 
-div:hover img.txt-img, div:active img.txt-img, div:focus img.txt-img {
-  opacity: 1;
+span.text-content span {
+  color: #5b5b5b;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  //color: #5b5b5b;
+  -webkit-transition: all 0.5s ease; 
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 li a {
@@ -362,13 +380,11 @@ img {
   width: 0px; //70
   height: 0px; //70
   margin-right: 0px; //15
-
   @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
   }
-
   img {
     border-radius: 5px;
   }
