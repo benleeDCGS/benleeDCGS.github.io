@@ -46,9 +46,8 @@
            {{ content }}
         </div>
 
-         <div class="container" class="date">
+         <div class="container" class="date" style="padding-bottom: 10px">
            Published on {{ page.date | date: "%B %e, %Y" }}
-           <br>
          </div>
 
          {% include disqus.html %}
