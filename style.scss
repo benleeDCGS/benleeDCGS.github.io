@@ -24,15 +24,14 @@ body {
   color: $darkGray;
   margin-top: 2%;
 	
-  .home {
-    margin-top: 2.5%;
-  }
-	
   @include mobile {
   margin-top: 5%;
   }
 }
 
+.home {
+  margin-top: 2.5%;
+}
 .container {
   margin: 0 auto;
   max-width: 65%;
