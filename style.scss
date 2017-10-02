@@ -367,7 +367,7 @@ img {
 .masthead {
   background-color: #f4d81a;
  // padding: 20px 0;
-  height: 5%;
+  height: 3vh;
   z-index: 32000;
 
   @include mobile {
@@ -461,6 +461,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    margin-top: 1vh;
 
    /* @include mobile {
       margin: 0 10px;
