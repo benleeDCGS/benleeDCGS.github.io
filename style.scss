@@ -420,7 +420,7 @@ img {
   vertical-align: middle;
 	
   @include mobile {
-    //margin-top: 7.5%
+    margin-top: 0;
     font-size: 18px;
   }
 }
