@@ -1,6 +1,1 @@
----
-title: app
-permalink: /app/
----
-
-<h2>You have entered a world of nothingness... until I make this app work... kinda</h2>
+<meta http-equiv="refresh" content="0; URL='http://ben_lee.repl.co/Patheos/'" />
