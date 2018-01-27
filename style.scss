@@ -29,6 +29,10 @@ body {
   }
 }
 
+#main {
+  min-height: 100vh;
+}
+
 .container {
   margin: 0 auto;
   max-width: 65%;
@@ -517,6 +521,7 @@ footer {
   margin-top: -0.4vh;
   padding: 20px 0;
   text-align: center;
+  bottom: 0;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
