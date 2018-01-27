@@ -201,16 +201,12 @@ ul.img-list li:hover span.text-content span {
 
 li:hover span.text-content span, li:active span.text-content span, li:focus img.txt-img {
   color: #fff;
-  float: none;
-  margin-left: 0;
 }
 
 span.text-content span {
   color: #5b5b5b;
   display: table-cell;
   text-align: center;
-  float: left;
-  margin-left: -20vw;
   vertical-align: middle;
   //color: #5b5b5b;
   -webkit-transition: all 0.5s ease; 
